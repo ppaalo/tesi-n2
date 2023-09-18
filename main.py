@@ -1,4 +1,8 @@
-from telas.loginTela import criar_tela_login
+import tkinter as tk
+from tkinter import Menu
+from telas.tela_inicial import TelaInicial
 
 if __name__ == "__main__":
-    criar_tela_login()
+    root = tk.Tk()
+    app = TelaInicial(root)
+    root.mainloop()
